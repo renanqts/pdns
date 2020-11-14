@@ -7,7 +7,7 @@ This is another Dockerfile to build PowerDNS Authoritative Server.
 
 ## Build
 ```
-docker build --build-arg <version> -t pdns:<version> .
+make build
 ```
 
 ## Usage
